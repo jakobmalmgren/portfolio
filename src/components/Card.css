@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
+.portfolio-content {
+}
+.hiddenText-container {
+  width: 300px;
+  background-color: red;
+  position: relative;
+  border-radius: 8px;
+}
+.card {
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+  /* position: relative; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  /* margin: 30px; */
+}
+.card .card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: transform 0.5s;
+}
+.card .layer {
+  width: 100%;
+  height: 0;
+  transition: height 0.7s;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #000000);
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 40px;
+  flex-direction: column;
+}
+.layer h5 {
+  font-size: 35px;
+  font-weight: lighter;
+  font-family: "Vina Sans", cursive;
+  color: white;
+}
+
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+.card:hover .layer {
+  height: 100%;
+}
+.card-icon-cross {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.card-info {
+  width: 300px;
+  position: absolute;
+  border-radius: 8px;
+  padding: 10px;
+  top: 0px;
+  transition: 1s;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #000000);
+}
+.active {
+  transition: 1s;
+  width: 300px;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  top: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #000000);
+}
+.card-info-content {
+  color: white;
+}
+.card-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card-icon-live {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+  margin: 5px;
+}
+
+.card-icon-github {
+  width: 20px;
+  height: 20px;
+  color: white;
+  margin: 5px;
+}
+.card-icon-minus {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}

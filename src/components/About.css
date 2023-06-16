@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+
+.about-container {
+  /* background-color: rgb(255, 244, 244); */
+  /* background-color: rgb(167, 218, 165); */
+  height: 100vh;
+  display: flex;
+}
+.aboutMe-section {
+  background-color: red;
+  width: 50%;
+}
+.aboutMe-name {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.aboutMe-surname {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.aboutMe-surname h1 {
+  letter-spacing: -7px;
+  line-height: 77px;
+  font-size: 100px;
+  color: white;
+  /* background-color: red; */
+  font-family: "Barriecito", cursive;
+}
+.aboutMe-name h1 {
+  color: white;
+  letter-spacing: -7px;
+  line-height: 77px;
+  font-size: 100px;
+  /* background-color: red; */
+  font-family: "Barriecito", cursive;
+}
+
+.aboutMe-birth {
+  display: flex;
+  /* background-color: green; */
+  justify-content: space-around;
+}
+.aboutMe-birth h2 {
+  font-size: 15px;
+}
+.mySkills-section {
+  /* background-color: blue; */
+  width: 50%;
+}
+.skill-icon {
+  height: 30px;
+}

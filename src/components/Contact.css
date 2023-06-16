@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+.contact-container {
+  /* background-color: black; */
+  /* background-color: #1e5f0f33; */
+  height: 100vh;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  color: black;
+  margin-bottom: 40px;
+}
+.header :nth-child(2) {
+  font-size: 40px;
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+.header :nth-child(1) {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+}
+
+.contact-container-content {
+  /* background-color: #1e5f0f33; */
+  /* background-color: red; */
+  width: 70%;
+  padding: 20px;
+  /* background-color: white; */
+  border: 1px solid white;
+  /* background-color: rgb(167, 218, 165); */
+  position: relative;
+}
+.contact-container-wrapper {
+  height: 100%;
+  display: flex;
+}
+.contact-container-icons {
+  /* background-color: green; */
+  width: 50%;
+  height: 100%;
+}
+
+.icon-wrapper {
+  display: flex;
+  padding: 8px;
+  margin-bottom: 8px;
+  align-items: center;
+  /* border-radius: 30px; */
+  color: black;
+  /* background-color: grey; */
+  /* border: 1px solid rgb(6, 6, 6); */
+}
+.icon-circle {
+  border: 1px solid black;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+.icon-circle :nth-child(1) {
+  color: black;
+}
+.contact-container-inputfields {
+  /* background-color: yellow; */
+  width: 50%;
+  height: 100%;
+  padding: 0px 0px 0px 20px;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.formLabel {
+  position: absolute;
+  color: rgb(3, 3, 3);
+  background-color: white;
+  top: -10px;
+  left: 25px;
+}
+.form-wrapper-icon {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color: black;
+}
+.form-wrapper textarea,
+.form-wrapper input {
+  padding: 15px 15px 15px 25px;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+.form-btn {
+  width: 98px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid black;
+}
+.contact-socialMedia-icons-wrapper {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+}
+.contact-socialMedia-icons-wrapper :nth-child(1) {
+  margin-right: 10px;
+}
+.contact-socialMedia-icons {
+  font-size: 20px;
+}
