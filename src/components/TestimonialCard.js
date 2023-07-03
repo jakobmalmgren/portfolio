@@ -6,7 +6,6 @@ import { FaQuoteRight } from "react-icons/fa";
 const TestimonialCard = () => {
   return (
     <div className="testimonialCard">
-      <img src="/images/paper.avif" alt="" className="paper" />
       <div className="testimonialCard-text-wrapper">
         <h2 className="testimonialCard-header">Jon Doe</h2>
         <p className="testimonialCard-text">
@@ -17,7 +16,6 @@ const TestimonialCard = () => {
           <FaQuoteLeft></FaQuoteLeft>
         </p>
       </div>
-      <div className="shade"></div>
     </div>
   );
 };

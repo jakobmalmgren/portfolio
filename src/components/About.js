@@ -52,6 +52,8 @@ const About = () => {
     "Folder structure, Clean code",
     "Visual Studios",
     "Testing & Debugging",
+    "HOC",
+    "English - fluent",
     "Problemsolver, Good communicator, Teamplayer, Creative",
   ];
   return (

@@ -1,93 +1,14 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
-
-.checkIcon {
-  margin: 5px;
-}
-.about-section {
-  display: flex;
-
-  padding: 20px;
-}
-.about-section-image {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.profile-img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-  filter: grayscale(1);
-}
-.about-section-info {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.about-section-info-header {
-  color: black;
-  margin-bottom: 40px;
-}
-.about-section-info-header :nth-child(2) {
-  font-size: 40px;
-  font-family: "Abril Fatface", cursive;
-  text-align: center;
-}
-.about-section-info-header :nth-child(1) {
-  font-size: 20px;
-  text-align: center;
-  font-family: "Abril Fatface", cursive;
-}
-.about-section-info-text {
-  line-height: 25px;
-}
-
-.about-section-info-skills {
-  display: flex;
-  margin: 20px 0px;
-  justify-content: space-around;
-}
-.about-section-info-skills h2 {
-  cursor: pointer;
-  font-family: "Abril Fatface", cursive;
-  font-weight: lighter;
-  position: relative;
-}
-.about-section-info-skills h2::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  bottom: -5px;
-  height: 2px;
-  width: 0%;
-  background-color: black;
-  border-radius: 20px;
-  transition: 0.6s;
-}
-.about-section-info-skills h2:hover:after {
-  width: 100%;
-}
-
-.about-section-info-skills-content {
-  width: 50%;
-  line-height: 25px;
-  min-height: 300px;
-} */
-
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
 .about-section {
   /* background-color: red; */
   /* min-height: 130vh;
   max-height: 230vh; */
+  transform: scale(0.9);
 }
 
 .about-section-info-header {
   color: black;
-  margin-bottom: 40px;
 }
 .about-section-info-header :nth-child(2) {
   font-size: 40px;
@@ -101,6 +22,7 @@
 }
 
 .honeycomb {
+  margin: 0px auto 200px auto;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -109,7 +31,7 @@
   -webkit-box-align: center;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 0;
   transform: translateY(80px);
 }

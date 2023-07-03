@@ -7,6 +7,16 @@
 
   /* background: linear-gradient(rgb(255, 255, 255), #023610); */
 }
+.home-container-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.home-container-icon {
+  border: 5px solid #023610;
+  border-radius: 50%;
+  background-color: white;
+}
 
 /* .home-mainHeader-wrapper {
   display: flex;
