@@ -3,36 +3,33 @@
 .contact-container {
   /* background-color: black; */
   /* background-color: #1e5f0f33; */
-  height: 100vh;
+  margin: 50px 0px;
   color: white;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header {
+
+.contact-container-header {
   color: black;
   margin-bottom: 40px;
 }
-.header :nth-child(2) {
+.contact-container-header :nth-child(2) {
   font-size: 40px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
-.header :nth-child(1) {
+.contact-container-header :nth-child(1) {
   font-size: 20px;
   text-align: center;
   font-family: "Abril Fatface", cursive;
 }
 
 .contact-container-content {
-  /* background-color: #1e5f0f33; */
-  /* background-color: red; */
   width: 70%;
   padding: 20px;
-  /* background-color: white; */
   border: 1px solid white;
-  /* background-color: rgb(167, 218, 165); */
   position: relative;
 }
 .contact-container-wrapper {
@@ -40,7 +37,6 @@
   display: flex;
 }
 .contact-container-icons {
-  /* background-color: green; */
   width: 50%;
   height: 100%;
 }
@@ -50,11 +46,9 @@
   padding: 8px;
   margin-bottom: 8px;
   align-items: center;
-  /* border-radius: 30px; */
   color: black;
-  /* background-color: grey; */
-  /* border: 1px solid rgb(6, 6, 6); */
 }
+
 .icon-circle {
   border: 1px solid black;
   margin-right: 10px;
@@ -70,7 +64,6 @@
   color: black;
 }
 .contact-container-inputfields {
-  /* background-color: yellow; */
   width: 50%;
   height: 100%;
   padding: 0px 0px 0px 20px;
@@ -104,6 +97,22 @@
   border-radius: 30px;
   border: 1px solid black;
 }
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.swap-icon {
+  cursor: pointer;
+  color: black;
+  transition: 0.6s;
+}
+.swap-icon:hover {
+  scale: 1.2;
+  transition: 0.6s;
+}
 .form-btn {
   width: 98px;
   height: 40px;
@@ -111,6 +120,18 @@
   border-radius: 20px;
   background-color: white;
   border: 1px solid black;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.input-wrapper input {
+  background-color: white;
+}
+.form-btn:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: #0236109e;
 }
 .contact-socialMedia-icons-wrapper {
   position: absolute;

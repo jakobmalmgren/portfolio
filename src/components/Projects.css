@@ -1,4 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 .projects-section {
-  height: 100vh;
-  background-color: rgb(48, 90, 142);
+  width: 80%;
+  margin: 50px auto;
+}
+
+.projects-section-header :nth-child(2) {
+  font-size: 40px;
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+.projects-section-header :nth-child(1) {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+}
+.projects-section-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
