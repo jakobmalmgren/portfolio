@@ -133,8 +133,10 @@
   top: 10px;
   border-radius: 50%;
   z-index: 100;
-  color: white;
-  background-color: #023610;
+  color: #023610;
+  background-color: white;
+  border: 3px solid #023610;
+  outline: 1px solid black;
 }
 
 .navigation-mob-displayNone {
@@ -144,7 +146,7 @@
 .navigation-mob {
   background-color: white;
   position: relative;
-  border: 1px solid#023610;
+  border: 3px solid#023610;
   width: 65px;
   height: 95vh;
   display: flex;
@@ -239,7 +241,8 @@
   height: 70px;
   background-color: #023610;
   top: 114px;
-  right: -39px;
+  right: -40px;
+
   border-radius: 50%;
   border: 4px solid rgb(255, 255, 255);
   outline: 1px solid black;
@@ -280,14 +283,28 @@
 .navigation-icons-mob {
   position: absolute;
   bottom: 10px;
-  width: 45px;
 
+  color: white;
   display: flex;
   justify-content: space-between;
-  font-size: 17px;
-  color: #023610;
+  font-size: 16px;
+  padding: 3px;
+  width: 100%;
 }
 
 .navigation-icons-mob:nth-child(2) {
+  /* cursor: pointer; */
+}
+.navigation-icons-mob-icon-wrapper {
   cursor: pointer;
+  color: #023610;
+  height: 24px;
+  width: 24px;
+
+  border: 1px solid #023610;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

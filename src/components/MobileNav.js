@@ -1,7 +1,7 @@
 import "./MobileNav.css";
 import { Link } from "react-scroll";
 import { Divide as Hamburger } from "hamburger-react";
-import { VscGithub } from "react-icons/vsc";
+import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { TfiEmail } from "react-icons/tfi";
 import { BsBrush } from "react-icons/bs";
@@ -51,7 +51,7 @@ const MobileNav = () => {
     </a>,
   ];
   const [selected, setSelected] = useState(0);
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(true);
 
   function handleClick(i) {
     if (selected === i) {
@@ -78,12 +78,7 @@ const MobileNav = () => {
 
   return (
     <div className="navigation-mob-wrapper">
-      <div
-        className="navigation-mob-burger"
-        style={{
-          border: isOpen === false ? "3px solid white" : "3px solid #023610",
-        }}
-      >
+      <div className="navigation-mob-burger">
         <Hamburger
           toggled={isOpen}
           toggle={setOpen}
@@ -101,8 +96,12 @@ const MobileNav = () => {
           <div className="indicator-mob"></div>
         </ul>
         <div className="navigation-icons-mob">
-          <VscGithub></VscGithub>
-          <CiLinkedin></CiLinkedin>
+          <div className="navigation-icons-mob-icon-wrapper">
+            <FaGithub></FaGithub>
+          </div>
+          <div className="navigation-icons-mob-icon-wrapper">
+            <CiLinkedin></CiLinkedin>
+          </div>
         </div>
       </div>
     </div>

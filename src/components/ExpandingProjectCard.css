@@ -39,13 +39,14 @@
   height: 30px;
   border-radius: 50%;
   background-color: white;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid black;
   transition: 1s;
 }
 .expandingProjectCard-icon:hover {
-  background-color: rgb(61, 55, 55);
+  background-color: black;
   cursor: pointer;
   transition: 1s;
+  border: 1px solid white;
 }
 
 .expandingProjectCard-icon :nth-child(1) {
@@ -53,6 +54,6 @@
   transition: 1s;
 }
 .expandingProjectCard-icon:hover :nth-child(1) {
-  color: rgb(255, 255, 255);
+  color: white;
   transition: 1s;
 }

@@ -10,7 +10,7 @@
 .home-container-icon-wrapper {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 .home-container-icon {
   border: 5px solid #023610;

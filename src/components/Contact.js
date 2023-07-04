@@ -58,7 +58,7 @@ const Contact = () => {
                 <TfiEmail></TfiEmail>
               </div>
 
-              <p>jakob.malmgren1987@gmail.com</p>
+              <p>Jakob.Malmgren1987@gmail.com</p>
             </div>
             <div className="location-wrapper">
               <div className="icon-wrapper">

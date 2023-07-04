@@ -2,7 +2,7 @@
 
 .contact-container {
   /* background-color: black; */
-  /* background-color: #1e5f0f33; */
+
   margin: 50px 0px;
   color: white;
   flex-direction: column;
@@ -131,7 +131,7 @@
 .form-btn:hover {
   transition: 0.5s;
   color: white;
-  background-color: #0236109e;
+  background-color: #023610;
 }
 .contact-socialMedia-icons-wrapper {
   position: absolute;

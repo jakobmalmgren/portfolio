@@ -45,16 +45,20 @@ const About = () => {
     </div>,
   ];
   const skills = [
-    "Fetching API:s",
+    "API:s",
     "Responsiveness",
-    "Classcomponents, Functioncomponents",
-    "BEM",
-    "Folder structure, Clean code",
+    "Classcomponents",
+    "Functioncomponents",
+    "Folder structure & Clean code",
     "Visual Studios",
     "Testing & Debugging",
-    "HOC",
-    "English - fluent",
-    "Problemsolver, Good communicator, Teamplayer, Creative",
+    "English - A level",
+    "Problemsolver",
+    " Good communicator",
+    "Teamplayer",
+    "Creative",
+    "BEM",
+    "HOC:s",
   ];
   return (
     <div className="about-section" id="about">
@@ -98,34 +102,16 @@ const About = () => {
           <div className="honeycomb-cell_title">INTERESTS</div>
           <div className="honeycomb-cell-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptas, illum aperiam. Repellat expedita est excepturi magnam
-              odio praesentium laborum voluptatum non nostrum, repellendus ad
-              beatae eaque sit. Ut, qui velit.
-            </p>
-          </div>
-        </li>
-        <li className="honeycomb-cell">
-          <div className="honeycomb-cell_img"></div>
-          <div className="honeycomb-cell_quote">
-            <span>
-              <FaQuoteRight></FaQuoteRight>
-            </span>
-            First, solve the problem.Then write the code
-            <span>
-              <FaQuoteLeft></FaQuoteLeft>
-            </span>
-          </div>
-        </li>
-        <li className="honeycomb-cell">
-          <img className="honeycomb-cell_img" src="/images/about.JPEG" alt="" />
-          <div className="honeycomb-cell_title">ABOUT</div>
-          <div className="honeycomb-cell-content">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptas, illum aperiam. Repellat expedita est excepturi magnam
-              odio praesentium laborum voluptatum non nostrum, repellendus ad
-              beatae eaque sit. Ut, qui velit.
+              I am a person with passion for <span>NATURE</span> - Everything
+              from the thriving Amazonas to the mountains of Patagonia.
+              <span>TRAVEL</span> - My favorite destination, a continent that
+              has it all - Southamerica. The bustling big cities, beautiful
+              beaches combined with the fantastic people and atmosphere.
+              <span>SPORTS</span> - A sportfreak with a heart for english
+              football and Manchester United. <span>BUT</span> , recently I have
+              also become very intrested in <span>COMPUTERS</span>,
+              <span> IT </span>and <span>TECH</span>, therefore this path as a
+              front end developer.
             </p>
           </div>
         </li>
@@ -143,6 +129,50 @@ const About = () => {
             </span>
           </div>
         </li>
+        <li className="honeycomb-cell">
+          <img className="honeycomb-cell_img" src="/images/about.JPEG" alt="" />
+          <div className="honeycomb-cell_title">ABOUT</div>
+          <div className="honeycomb-cell-content">
+            <p>
+              I was born in 1987 in Sweden, in a small city called Kristianstad.
+              I Recently moved to Barcelona and I have been living there for
+              about 2 years. Originally I am a teacher, but my interest in
+              developing made me think and therefore I am now changing path of
+              career. I am very flexible and if the right opportunity comes I am
+              ready to move anywhere.
+            </p>
+          </div>
+        </li>
+        <li className="honeycomb-cell">
+          <img
+            className="honeycomb-cell_img"
+            src="/images/education.avif"
+            alt=""
+          />
+          <div className="honeycomb-cell_title">EDUCATION</div>
+          <div className="honeycomb-cell-content">
+            <p>Certificates:</p>
+            <br />
+            <div className="honeycomb-cell-content-link-wrapper">
+              <a href="/images/frontenddeveloper.pdf" target="blank">
+                The Front End Developer Career Path, Scrimba
+              </a>
+            </div>
+            <br /> <br />
+            <div className="honeycomb-cell-content-link-wrapper">
+              <a href="/images/advancedReact.pdf" target="blank">
+                Advanced React, Scrimba
+              </a>
+            </div>
+            <br /> <br />
+            <div className="honeycomb-cell-content-link-wrapper">
+              <a href="/images/bootcamp.pdf" target="blank">
+                The Front End Developer Bootcamp, Sundsgarden
+              </a>
+            </div>
+          </div>
+        </li>
+
         <li class="honeycomb-cell">
           <img className="honeycomb-cell_img" src="/images/tool.avif" alt="" />
           <div className="honeycomb-cell-content">
