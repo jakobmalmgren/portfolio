@@ -88,9 +88,7 @@ const MobileNav = () => {
           rounded
         />
       </div>
-      <div
-        className={isOpen ? "navigation-mob" : "navigation-mob-displayNone "}
-      >
+      <div className={isOpen ? "navigation-mob" : "navigation-mob-displayNone"}>
         <ul className="navigation-ul-mob">
           {items}
           <div className="indicator-mob"></div>

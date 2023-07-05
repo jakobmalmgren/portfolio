@@ -1,126 +1,8 @@
-/* .link-container-mob {
-
-  height: 100vh;
-  position: absolute;
-  top: 0px;
-  left: -2000px;
-  width: 100%;
-
-  transition: 1s;
-}
-.link-container-mob-active {
-
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(73, 69, 69);
-  transition: 1s;
-  z-index: 1;
-}
-
-.link-container-mob li,
-.link-container-mob-active li {
-  list-style: none;
-  text-align: center;
-  margin-top: 30px;
-}
-.link-container-mob a,
-.link-container-mob-active a {
-  text-decoration: none;
-
-  color: white;
-  font-size: 20px;
-}
-
-@media screen and (min-width: 580px) {
-  .link-container-mob-active {
-
-  }
-  .link-container-mob {
-
-  }
-} */
-
-/* här ifrån */
-
-/* .nav {
-  background-color: rgba(128, 128, 128, 0.205);
-  height: 10vh;
-  display: flex;
-  align-items: center;
-}
-.nav-content {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  width: 100%;
-}
-.link-icon {
-  margin-right: 10px;
-}
-.link-container {
-  display: none;
-}
-.hamburger-react {
-  z-index: 2;
-}
-
-@media screen and (min-width: 670px) {
-  .link-container {
-    display: flex;
-
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    margin: 0px;
-  }
-  .link-container li {
-    list-style: none;
-    margin: 0px 20px;
-  }
-  .link-container li a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    position: relative;
-    transition: 0.6s;
-  }
-  .link-container li a::after {
-    content: "";
-    position: absolute;
-    background-color: green;
-    border-radius: 20px;
-    height: 2px;
-    width: 0%;
-    left: 0px;
-    bottom: -5px;
-    transition: 0.6s;
-  }
-  .link-container li a:hover:after {
-    content: "";
-    position: absolute;
-
-    height: 3px;
-    width: 100%;
-    left: 0px;
-    bottom: -5px;
-  }
-  .link-container li a:hover {
-    color: rgba(255, 255, 255, 0.438);
-    transition: 0.6s;
-  }
-
-  .burger {
-    display: none;
-  }
-} */
-
 .navigation-mob-wrapper {
   position: relative;
   width: 65px;
   height: 500px;
+  top: 0px;
   position: fixed;
   border-radius: 10px;
   display: flex;
@@ -135,8 +17,8 @@
   z-index: 100;
   color: #023610;
   background-color: white;
-  border: 3px solid #023610;
-  outline: 1px solid black;
+  border: 2px solid #023610;
+  outline: 1px solid white;
 }
 
 .navigation-mob-displayNone {
@@ -240,7 +122,7 @@
   width: 70px;
   height: 70px;
   background-color: #023610;
-  top: 114px;
+  top: 115px;
   right: -40px;
 
   border-radius: 50%;
