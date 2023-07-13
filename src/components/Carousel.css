@@ -1,19 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+#testimonials {
+  /* padding: 20px; */
+}
 .slider-wrapper {
-  /* background-color: blue; */
   margin: 0 auto;
   width: 80%;
-
-  /* background-color: red; */
-  display: flex;
-  flex-direction: column;
 }
 .carousel-container-header {
   color: black;
   margin-bottom: 40px;
 }
 .carousel-container-header :nth-child(2) {
-  font-size: 40px;
+  font-size: 33px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
@@ -25,10 +23,27 @@
 .slick-next:before,
 .slick-prev:before {
   color: #023610;
-  font-size: 30px;
+  opacity: 1;
 }
 
 .slick-dots li button:before,
 .slick-dots li.slick-active button:before {
   color: #023610;
+}
+
+@media screen and (min-width: 600px) {
+  .carousel-container-header :nth-child(2) {
+    font-size: 38px;
+  }
+  .carousel-container-header :nth-child(1) {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .carousel-container-header :nth-child(2) {
+    font-size: 40px;
+  }
+  .carousel-container-header :nth-child(1) {
+    font-size: 22px;
+  }
 }

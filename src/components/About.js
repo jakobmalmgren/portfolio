@@ -108,10 +108,9 @@ const About = () => {
               has it all - Southamerica. The bustling big cities, beautiful
               beaches combined with the fantastic people and atmosphere.
               <span>SPORTS</span> - A sportfreak with a heart for english
-              football and Manchester United. <span>BUT</span> , recently I have
-              also become very intrested in <span>COMPUTERS</span>,
-              <span> IT </span>and <span>TECH</span>, therefore this path as a
-              front end developer.
+              football. <span>BUT</span>recently I have also become very
+              intrested in <span>COMPUTERS</span>,<span> IT </span>and{" "}
+              <span>TECH</span>, therefore this path as a front end developer.
             </p>
           </div>
         </li>
@@ -153,23 +152,25 @@ const About = () => {
           <div className="honeycomb-cell-content">
             <p>Certificates:</p>
             <br />
-            <div className="honeycomb-cell-content-link-wrapper">
-              <a href="/images/frontenddeveloper.pdf" target="blank">
-                The Front End Developer Career Path, Scrimba
-              </a>
-            </div>
-            <br /> <br />
-            <div className="honeycomb-cell-content-link-wrapper">
-              <a href="/images/advancedReact.pdf" target="blank">
-                Advanced React, Scrimba
-              </a>
-            </div>
-            <br /> <br />
-            <div className="honeycomb-cell-content-link-wrapper">
-              <a href="/images/bootcamp.pdf" target="blank">
-                The Front End Developer Bootcamp, Sundsgarden
-              </a>
-            </div>
+            <ul className="cert-content">
+              <li>
+                <a href="/images/frontenddeveloper.pdf" target="blank">
+                  The Front End Developer Career Path, Scrimba
+                </a>
+              </li>
+              <br />
+              <li>
+                <a href="/images/advancedReact.pdf" target="blank">
+                  Advanced React, Scrimba
+                </a>
+              </li>
+              <br />
+              <li>
+                <a href="/images/bootcamp.pdf" target="blank">
+                  The Front End Developer Bootcamp, Sundsgarden
+                </a>
+              </li>
+            </ul>
           </div>
         </li>
 

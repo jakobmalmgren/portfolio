@@ -8,10 +8,14 @@ const Footer = () => {
     <div className="footer-section">
       <div className="footer-section-icons">
         <div className="footer-section-icon-wrapper">
-          <FaGithub></FaGithub>
+          <a href="https://github.com/jakobmalmgren">
+            <FaGithub></FaGithub>
+          </a>
         </div>
         <div className="footer-section-icon-wrapper">
-          <CiLinkedin></CiLinkedin>
+          <a href="https://www.linkedin.com/in/jakob-malmgren-832062226/">
+            <CiLinkedin></CiLinkedin>
+          </a>
         </div>
       </div>
       <p>Copyright &copy; 2023 By Jakob Malmgren | All Rights Reserved </p>

@@ -1,16 +1,15 @@
 .footer-section {
-  /* background: linear-gradient(rgb(255, 255, 255), #023610); */
   color: #023610;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px 0px;
-  transform: scale(0.8);
 }
 
 .footer-section .footer-section-icons {
-  font-size: 24px;
+  font-size: 21px;
   display: flex;
+  transform: scale(0.7);
 }
 .footer-section
   .footer-section-icons
@@ -18,10 +17,12 @@
   margin-right: 5px;
 }
 .footer-section p {
-  margin-top: 15px;
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
 }
 
-.footer-section-icon-wrapper {
+.footer-section-icon-wrapper a {
   cursor: pointer;
   color: #023610;
   height: 40px;

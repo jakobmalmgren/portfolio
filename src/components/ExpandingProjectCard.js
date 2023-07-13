@@ -18,7 +18,7 @@ const ExpandingProjectCard = (props) => {
       <motion.div
         className="expandingProjectCard-cardContainer"
         layout
-        style={{ borderRadius: "35px" }}
+        style={{ borderRadius: "5px" }}
         transition={{ layout: { duration: 1, type: "spring" } }}
       >
         <motion.div

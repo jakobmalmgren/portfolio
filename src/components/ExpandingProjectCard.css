@@ -1,7 +1,6 @@
-.expandingProjectCard-cardContainer {
-  /* margin: 10px; */
-  /* max-width: 350px; */
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 
+.expandingProjectCard-cardContainer {
   color: white;
   background-color: #0236109e;
   border: 2px solid black;
@@ -10,14 +9,12 @@
   position: absolute;
   top: 5px;
   left: 5px;
-
-  border-radius: 37px;
   z-index: 1;
+  max-width: 251px;
 }
 .expandingProjectCard-btn {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
   color: white;
   display: flex;
   align-items: center;
@@ -56,4 +53,15 @@
 .expandingProjectCard-icon:hover :nth-child(1) {
   color: white;
   transition: 1s;
+}
+.expandingProjectCard-paragraph {
+  font-size: 15px;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 400px) {
+  .expandingProjectCard-cardContainer {
+    max-width: none;
+  }
 }

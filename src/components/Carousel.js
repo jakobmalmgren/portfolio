@@ -3,45 +3,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./Carousel.css";
-
 import TestimonialCard from "./TestimonialCard";
 
 const Carousel = () => {
-  function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          display: "block",
-        }}
-        onClick={onClick}
-      />
-    );
-  }
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block" }}
-        onClick={onClick}
-      />
-    );
-  }
-  var settings = {
+  const settings = {
     dots: true,
-
-    // className: "center",
-    // centerMode: true,
-
-    // centerPadding: "60px",
-
     infinite: true,
     speed: 500,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -57,7 +25,7 @@ const Carousel = () => {
         },
       },
       {
-        breakpoint: 700,
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -65,7 +33,7 @@ const Carousel = () => {
         },
       },
       {
-        breakpoint: 450,
+        breakpoint: 550,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

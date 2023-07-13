@@ -1,5 +1,4 @@
 import "./MobileNav.css";
-import { Link } from "react-scroll";
 import { Divide as Hamburger } from "hamburger-react";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
@@ -51,7 +50,7 @@ const MobileNav = () => {
     </a>,
   ];
   const [selected, setSelected] = useState(0);
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   function handleClick(i) {
     if (selected === i) {
@@ -95,10 +94,14 @@ const MobileNav = () => {
         </ul>
         <div className="navigation-icons-mob">
           <div className="navigation-icons-mob-icon-wrapper">
-            <FaGithub></FaGithub>
+            <a href="https://github.com/jakobmalmgren">
+              <FaGithub></FaGithub>
+            </a>
           </div>
           <div className="navigation-icons-mob-icon-wrapper">
-            <CiLinkedin></CiLinkedin>
+            <a href="https://www.linkedin.com/in/jakob-malmgren-832062226/">
+              <CiLinkedin></CiLinkedin>
+            </a>
           </div>
         </div>
       </div>

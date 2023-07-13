@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 .about-section {
-  /* background-color: red; */
-  /* min-height: 130vh;
-  max-height: 230vh; */
-  transform: scale(0.9);
+  margin-top: 80px;
 }
 
 .about-section-info-header {
   color: black;
 }
 .about-section-info-header :nth-child(2) {
-  font-size: 40px;
+  font-size: 33px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
@@ -26,12 +24,12 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
   max-width: 1200px;
-  /* margin: 0 auto; */
   padding: 0;
   transform: translateY(80px);
 }
@@ -46,13 +44,11 @@
   position: relative;
   padding: 0.5em;
   text-align: center;
-  /* z-index: 1; */
-  box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
 }
 .honeycomb-cell:hover .honeycomb-cell-content {
   transform: scale(1.2);
-  border-radius: 37px;
-  padding: 25px;
+  border-radius: 5px;
+  padding: 15px;
   font-size: 13px;
   border: 2px solid rgb(255, 255, 255);
   z-index: 11111;
@@ -65,7 +61,7 @@
   background-color: green;
 }
 .skill-icon {
-  height: 30px;
+  height: 20px;
   margin: 10px;
 }
 
@@ -73,9 +69,7 @@
   display: flex;
   justify-content: space-around;
 }
-/* .honeycomb-cell-content p {
-  color: white;
-} */
+
 .honeycomb-cell_title {
   font-size: 20px;
   font-family: "Abril Fatface", cursive;
@@ -93,7 +87,6 @@
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
-
   transition: opacity 350ms;
 }
 .honeycomb-cell_quote {
@@ -146,9 +139,7 @@
   transform: scale(1.055);
 }
 .honeycomb-cell::after {
-  /* background: #111111; */
   background-color: #0236109e;
-  /* opacity: 0.7; */
   transition: opacity 350ms;
   -webkit-transition: opacity 350ms;
 }
@@ -156,19 +147,22 @@
   opacity: 0;
 }
 .honeycomb-cell:hover .honeycomb-cell_img {
-  /* filter: grayscale(100%); */
   opacity: 0;
 }
 
 .honeycomb-cell-content {
   opacity: 0;
+
   transition: opacity 350ms;
   top: -10%;
   color: white;
   left: 0;
-  /* filter: grayscale(70%); */
   width: 100%;
   position: absolute;
+}
+.honeycomb-cell-content p {
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bolder;
 }
 .honeycomb-cell-content span {
   font-family: "Abril Fatface", cursive;
@@ -177,20 +171,16 @@
   color: white;
   text-decoration: none;
 }
-.honeycomb-cell-content-link-wrapper {
-  border: 1px solid white;
-  border-radius: 27px;
-  padding: 5px;
-  background-color: #02361088;
+.cert-content a {
+  font-weight: bolder;
+  font-family: "Advent Pro", sans-serif;
 }
 
 .honeycomb-cell:hover .honeycomb-cell-content {
   opacity: 1;
   transition: opacity 350ms;
 }
-.honeycomb-cell:hover::before {
-  /* background: #0236109e; */
-}
+
 .honeycomb-cell:hover::after {
   opacity: 1;
 }
@@ -199,6 +189,22 @@
   opacity: 0;
   width: 250px;
   margin: 0 12.5px;
+}
+@media screen and (min-width: 600px) {
+  .about-section-info-header :nth-child(2) {
+    font-size: 38px;
+  }
+  .about-section-info-header :nth-child(1) {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .about-section-info-header :nth-child(2) {
+    font-size: 40px;
+  }
+  .about-section-info-header :nth-child(1) {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 550px) {

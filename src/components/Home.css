@@ -2,35 +2,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 .home-container {
   height: 100vh;
-  padding: 10px;
   width: 100%;
-  background-image: url(/public/images/HEJ.png);
+  background-image: url(/public/images/jappe.png);
   background-repeat: no-repeat;
-  background-position: 30% 80%;
+  background-position: 60% 100%;
   display: flex;
   align-items: center;
-
   position: relative;
 }
 .home-text {
   color: white;
-  font-size: 35px;
-  margin-left: 100px;
+
+  letter-spacing: 13px;
+  padding: 10px;
+
+  margin: 0px 0px 0px 20px;
+}
+.home-text-wrapper h1 {
+  font-size: 50px;
 }
 .home-text-wrapper h2 {
   color: #023610;
+  font-size: 14px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.9388810700061274) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 5px;
+  width: 85%;
+  margin: 10px 0px;
+}
+.home-text-wrapper p {
+  font-size: 9px;
 }
 .home-text p,
-.home-text h1 {
+.home-text h1,
+.home-text h2 {
   font-family: "Advent Pro", sans-serif;
 }
 .home-container-icon-wrapper {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 15px;
+  right: 15px;
+  z-index: 1;
 }
 .home-container-icon {
-  border: 5px solid #023610;
+  border: 4px solid #023610;
+  outline: 1px solid white;
   border-radius: 50%;
+  width: 60px;
+  height: 60px;
   background-color: white;
+}
+@media screen and (min-width: 600px) {
+  .home-text-wrapper h1 {
+    font-size: 70px;
+  }
+  .home-text-wrapper h2 {
+    font-size: 20px;
+  }
+  .home-text-wrapper p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .home-text-wrapper h1 {
+    font-size: 85px;
+  }
+  .home-text-wrapper h2 {
+    font-size: 23px;
+  }
+  .home-text-wrapper p {
+    font-size: 16px;
+  }
 }

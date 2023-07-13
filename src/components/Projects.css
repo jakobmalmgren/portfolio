@@ -1,17 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-.projects-section {
-  width: 80%;
-  margin: 50px auto;
-  /* background: rgb(0, 0, 0);
-  background: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(2, 54, 37, 1) 100%
-  ); */
-}
 
 .projects-section-header :nth-child(2) {
-  font-size: 40px;
+  font-size: 33px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
@@ -24,4 +14,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+@media screen and (min-width: 600px) {
+  .projects-section-header :nth-child(2) {
+    font-size: 38px;
+  }
+  .projects-section-header :nth-child(1) {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .projects-section-header :nth-child(2) {
+    font-size: 40px;
+  }
+  .projects-section-header :nth-child(1) {
+    font-size: 22px;
+  }
 }

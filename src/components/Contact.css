@@ -1,14 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 .contact-container {
-  /* background-color: black; */
-
-  margin: 50px 0px;
   color: white;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .contact-container-header {
@@ -16,7 +10,7 @@
   margin-bottom: 40px;
 }
 .contact-container-header :nth-child(2) {
-  font-size: 40px;
+  font-size: 33px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
@@ -27,22 +21,23 @@
 }
 
 .contact-container-content {
-  width: 70%;
   padding: 20px;
-  border: 1px solid white;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
   position: relative;
 }
 .contact-container-wrapper {
   height: 100%;
-  display: flex;
 }
 .contact-container-icons {
-  width: 50%;
+  width: 100%;
+  max-width: 470px;
+  margin: 0 auto;
   height: 100%;
 }
 
 .icon-wrapper {
-  display: flex;
   padding: 8px;
   margin-bottom: 8px;
   align-items: center;
@@ -50,6 +45,7 @@
 }
 
 .icon-circle {
+  margin-bottom: 5px;
   border: 1px solid black;
   margin-right: 10px;
   display: flex;
@@ -60,13 +56,19 @@
   background-color: white;
   border-radius: 50%;
 }
-.icon-circle :nth-child(1) {
-  color: black;
+
+.circleSwap {
+  border-radius: 6px;
+  padding: 8px;
+  border: 3px solid black;
 }
+
 .contact-container-inputfields {
-  width: 50%;
+  width: 100%;
   height: 100%;
-  padding: 0px 0px 0px 20px;
+  max-width: 470px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .form-wrapper {
   display: flex;
@@ -98,10 +100,8 @@
   border: 1px solid black;
 }
 .location-wrapper {
-  display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background-color: red; */
 }
 
 .swap-icon {
@@ -110,7 +110,7 @@
   transition: 0.6s;
 }
 .swap-icon:hover {
-  scale: 1.2;
+  scale: 1.8;
   transition: 0.6s;
 }
 .form-btn {
@@ -133,15 +133,84 @@
   color: white;
   background-color: #023610;
 }
-.contact-socialMedia-icons-wrapper {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
+
+.contact-modal {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid black;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: absolute;
+  color: white;
+  background-color: #023610;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 150%);
 }
-.contact-socialMedia-icons-wrapper :nth-child(1) {
-  margin-right: 10px;
+
+.contact-modal p {
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
 }
-.contact-socialMedia-icons {
-  font-size: 20px;
+.contact-modal-icon {
+  font-size: 30px;
+}
+.contact-modal-btn {
+  height: 30px;
+  width: 80px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+@media screen and (min-width: 500px) {
+  .location-wrapper {
+    display: flex;
+  }
+  .icon-wrapper {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .contact-container-header :nth-child(2) {
+    font-size: 38px;
+  }
+  .contact-container-header :nth-child(1) {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .contact-container-header :nth-child(2) {
+    font-size: 40px;
+  }
+  .contact-container-header :nth-child(1) {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .contact-container-wrapper {
+    display: flex;
+  }
+  .contact-container-inputfields {
+    padding: 10px 0px 0px 20px;
+  }
+  .contact-container-icons {
+    width: 50%;
+  }
+  .contact-container-content {
+    width: 95%;
+    position: relative;
+  }
+  .contact-modal {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
