@@ -43,25 +43,27 @@ const Carousel = () => {
   };
 
   return (
-    <div id="testimonials">
-      <div className="carousel-container-header">
-        <p> ~ Read ~</p>
-        <h1>TESTIMONIALS</h1>
-      </div>
-      <div className="slider-wrapper">
-        <Slider {...settings}>
-          <TestimonialCard></TestimonialCard>
+    <div className="section" id="testimonials">
+      <div>
+        <div className="carousel-container-header">
+          <p> ~ Read ~</p>
+          <h1>TESTIMONIALS</h1>
+        </div>
+        <div className="slider-wrapper">
+          <Slider {...settings}>
+            <TestimonialCard></TestimonialCard>
 
-          <TestimonialCard></TestimonialCard>
+            <TestimonialCard></TestimonialCard>
 
-          <TestimonialCard></TestimonialCard>
+            <TestimonialCard></TestimonialCard>
 
-          <TestimonialCard></TestimonialCard>
+            <TestimonialCard></TestimonialCard>
 
-          <TestimonialCard></TestimonialCard>
+            <TestimonialCard></TestimonialCard>
 
-          <TestimonialCard></TestimonialCard>
-        </Slider>
+            <TestimonialCard></TestimonialCard>
+          </Slider>
+        </div>
       </div>
     </div>
   );

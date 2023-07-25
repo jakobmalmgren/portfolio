@@ -5,15 +5,17 @@ import data from "../data";
 
 const Projects = () => {
   return (
-    <div className="projects-section" id="projects">
-      <div className="projects-section-header">
-        <p> ~ Explore ~</p>
-        <h1>PROJECTS</h1>
-      </div>
-      <div className="projects-section-cards">
-        {data.map((data, i) => {
-          return <Card {...data} i={i}></Card>;
-        })}
+    <div className="section" id="projects">
+      <div className="projects-section">
+        <div className="projects-section-header">
+          <p> ~ Explore ~</p>
+          <h1>PROJECTS</h1>
+        </div>
+        <div className="projects-section-cards">
+          {data.map((data, i) => {
+            return <Card {...data} i={i}></Card>;
+          })}
+        </div>
       </div>
     </div>
   );

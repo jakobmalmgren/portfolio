@@ -1,3 +1,51 @@
+# Title
+
+HEY, I AM JAKOB
+A FRONT-END-DEVELOPER
+WITH PASSION FOR UX/UI
+
+-A webpage that is my portfolio
+
+# Introduction
+
+Why did I create this project?
+-I created this project only for practise purpose, to increase my toolbox and to do some showcases for jobsearching
+
+What particular technology did I want to learn?
+This project I focused on:
+
+-React
+
+-Function components
+
+-UX/UI
+
+-Animations
+
+Is it for a non-profit organization?
+-Yes it is, its only for me.
+
+What was the inspiration behind creating the project?
+-I wanted to increase my toolbox and therefore this project
+
+# Technologies applied
+
+-React
+
+-Function components
+
+-UX/UI
+
+-Animations
+
+-Slick-carousel
+
+-Framer-motion
+
+-Hamburger-react
+
+-React-icons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

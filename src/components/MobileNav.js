@@ -11,14 +11,14 @@ import { useEffect, useState } from "react";
 import { useRef } from "react";
 
 const MobileNav = () => {
-  const myRef = useRef();
+  // const myRef = useRef();
 
-  useEffect(() => {
-    console.log(myRef.current);
-  });
+  // useEffect(() => {
+  //   console.log(myRef.current);
+  // });
 
   const linkItemsMob = [
-    <a ref={myRef} href="#home" className="navigation-link-mob">
+    <a href="#home" className="navigation-link-mob">
       <span className="navigation-text-mob">HOME</span>
       <span className="navigation-icon-mob">
         <RxHome></RxHome>
@@ -50,11 +50,11 @@ const MobileNav = () => {
     </a>,
   ];
   const [selected, setSelected] = useState(0);
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(true);
 
   function handleClick(i) {
     if (selected === i) {
-      return setSelected(null);
+      setSelected(null);
     }
 
     setSelected(i);

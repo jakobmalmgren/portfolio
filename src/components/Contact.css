@@ -60,7 +60,7 @@
 .circleSwap {
   border-radius: 6px;
   padding: 8px;
-  border: 3px solid black;
+  border: 3px solid #023610;
 }
 
 .contact-container-inputfields {
@@ -106,7 +106,6 @@
 
 .swap-icon {
   cursor: pointer;
-  color: black;
   transition: 0.6s;
 }
 .swap-icon:hover {
