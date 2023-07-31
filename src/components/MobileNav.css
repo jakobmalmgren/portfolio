@@ -1,7 +1,8 @@
 .navigation-mob-wrapper {
   position: relative;
   width: 49px;
-  height: 88vh;
+  /* height: 88vh; */
+
   top: 25px;
   left: 15px;
   position: fixed;
@@ -15,9 +16,10 @@
   background-color: white;
   position: relative;
   border: 4px solid #023610;
-  outline: 1px solid white;
+  /* outline: 1px solid white; */
   width: 49px;
-  height: 88vh;
+  /* height: 88vh; */
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +33,7 @@
   color: #023610;
   background-color: white;
   border: 4px solid #023610;
-  outline: 1px solid white;
+  /* outline: 1px solid white; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,12 +131,12 @@
   width: 70px;
   height: 70px;
   background-color: #023610;
-  top: 93px;
+  top: 69px;
   right: -49px;
 
   border-radius: 50%;
   border: 4px solid rgb(255, 255, 255);
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
   transition: 0.5s;
 }
 
