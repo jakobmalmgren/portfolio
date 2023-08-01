@@ -13,6 +13,7 @@
   border-radius: 37px;
   cursor: pointer;
   margin: 20px;
+  border-radius: 35px;
 }
 .card .card-img {
   width: 100%;
@@ -24,6 +25,7 @@
 }
 .card .layer {
   width: 100%;
+  border-radius: 35px;
   height: 0;
   transition: height 0.7s;
   background: linear-gradient(rgba(255, 255, 255, 0.5), #0236109e);
@@ -45,11 +47,9 @@
   color: white;
 }
 
-.card:hover .card-img {
-  transform: scale(1.1);
-}
 .card:hover .layer {
   height: 100%;
+  border-radius: 35px;
 }
 
 .card-info-content {

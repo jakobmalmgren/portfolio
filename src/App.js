@@ -8,27 +8,27 @@ import Divider from "./components/Divider";
 import Carousel from "./components/Carousel";
 
 function App() {
-  const sectionEl = document.querySelectorAll(".section");
-  const navlinksEl = document.querySelectorAll(".navigation-list-mob");
-  let currentSection = "home";
+  // const sectionEl = document.querySelectorAll(".section");
+  // const navlinksEl = document.querySelectorAll(".navigation-list-mob");
+  // let currentSection = "home";
 
-  window.addEventListener("load", () => {
-    window.addEventListener("scroll", () => {
-      sectionEl.forEach((section) => {
-        if (window.scrollY >= section.offsetTop) {
-          currentSection = section.id;
-        }
-      });
-      console.log(currentSection);
-    });
+  // window.addEventListener("load", () => {
+  //   window.addEventListener("scroll", () => {
+  //     sectionEl.forEach((section) => {
+  //       if (window.scrollY >= section.offsetTop) {
+  //         currentSection = section.id;
+  //       }
+  //     });
+  //     console.log(currentSection);
+  //   });
 
-    // navlinksEl.forEach((link) => {
-    //   if (link.href.includes(currentSection)) {
-    //     document.querySelector(".active").classList.remove("active");
-    //     link.classList.add("active");
-    //   }
-    // });
-  });
+  //   navlinksEl.forEach((link) => {
+  //     if (link.href.includes(currentSection)) {
+  //       document.querySelector(".active").classList.remove("active");
+  //       link.classList.add("active");
+  //     }
+  //   });
+  // });
 
   return (
     <div>

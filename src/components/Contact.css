@@ -99,6 +99,7 @@
   border-radius: 30px;
   border: 1px solid black;
 }
+
 .location-wrapper {
   align-items: center;
   justify-content: space-between;
@@ -125,8 +126,10 @@
   align-items: center;
   transition: 0.5s;
 }
-.input-wrapper input {
+.input-wrapper input,
+.input-wrapper textarea {
   background-color: white;
+  outline: none;
 }
 .form-btn:hover {
   transition: 0.5s;

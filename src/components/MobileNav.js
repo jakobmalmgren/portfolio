@@ -50,7 +50,7 @@ const MobileNav = () => {
     </a>,
   ];
   const [selected, setSelected] = useState(0);
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   function handleClick(i) {
     if (selected === i) {

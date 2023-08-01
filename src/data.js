@@ -38,7 +38,7 @@ const data = [
     use CSS - modules. In this project I use various techniques as 
     function components, localStorage, react-router-dom, dealing with props, destructuring props, folderstructure.
     A variaty of methods such as map, filter, find, reduce. I also use some hooks such as
-    usestate, and useeffect. It is all responsive. `,
+    usestate, and useeffect. Mobile approach first and it is all responsive. `,
     image: "/eComerce.avif",
   },
 ];
