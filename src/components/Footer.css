@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 .footer-section {
   color: #023610;
   display: flex;
@@ -20,6 +21,8 @@
   text-align: center;
   padding: 5px;
   font-size: 15px;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bolder;
 }
 
 .footer-section-icon-wrapper a {

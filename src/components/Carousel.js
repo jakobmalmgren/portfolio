@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./Carousel.css";
 import TestimonialCard from "./TestimonialCard";
+import testimonialsData from "../testimonialsData";
 
 const Carousel = () => {
   const settings = {
@@ -42,6 +43,10 @@ const Carousel = () => {
     ],
   };
 
+  const testCard = testimonialsData.map((data) => {
+    return <TestimonialCard {...data}></TestimonialCard>;
+  });
+
   return (
     <div className="section" id="testimonials">
       <div>
@@ -51,17 +56,13 @@ const Carousel = () => {
         </div>
         <div className="slider-wrapper">
           <Slider {...settings}>
+            {testCard}
+            {/* <TestimonialCard></TestimonialCard>
             <TestimonialCard></TestimonialCard>
-
             <TestimonialCard></TestimonialCard>
-
             <TestimonialCard></TestimonialCard>
-
             <TestimonialCard></TestimonialCard>
-
-            <TestimonialCard></TestimonialCard>
-
-            <TestimonialCard></TestimonialCard>
+            <TestimonialCard></TestimonialCard>  */}
           </Slider>
         </div>
       </div>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 .card-wrapper {
   height: 45vh;
   position: relative;
@@ -42,19 +42,13 @@
 }
 .layer h5 {
   font-size: 35px;
-  font-weight: lighter;
-  font-family: "Vina Sans", cursive;
+  font-family: "Advent Pro", sans-serif;
   color: white;
 }
 
 .card:hover .layer {
   height: 100%;
   border-radius: 35px;
-}
-
-.card-info-content {
-  color: white;
-  font-family: "Vina Sans", cursive;
 }
 
 @media screen and (min-width: 400px) {

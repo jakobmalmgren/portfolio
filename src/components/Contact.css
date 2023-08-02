@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 
 .contact-container {
   color: white;
@@ -26,6 +27,14 @@
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
+}
+.contact-container-content p,
+.contact-container-content label,
+.form-btn h3,
+textarea::placeholder,
+input::placeholder {
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bolder;
 }
 .contact-container-wrapper {
   height: 100%;
@@ -107,12 +116,8 @@
 
 .swap-icon {
   cursor: pointer;
-  transition: 0.6s;
 }
-.swap-icon:hover {
-  scale: 1.4;
-  transition: 0.6s;
-}
+
 .form-btn {
   width: 98px;
   height: 40px;

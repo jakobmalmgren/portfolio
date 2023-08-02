@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 .navigation-mob-wrapper {
   position: relative;
   width: 49px;
@@ -15,7 +16,7 @@
 .navigation-mob {
   background-color: white;
   position: relative;
-  border: 4px solid #023610;
+  border: 2px solid #023610;
   /* outline: 1px solid white; */
   width: 49px;
   /* height: 88vh; */
@@ -32,7 +33,7 @@
   z-index: 100;
   color: #023610;
   background-color: white;
-  border: 4px solid #023610;
+  border: 2px solid #023610;
   /* outline: 1px solid white; */
   display: flex;
   flex-direction: column;
@@ -110,13 +111,14 @@
   .navigation-text-mob {
   position: absolute;
   color: black;
-  font-weight: 400;
   font-size: 0.75em;
   letter-spacing: 0.05em;
   transition: 0.5s;
   opacity: 0;
   transform: translatex(10px);
   writing-mode: vertical-rl;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bolder;
 }
 .navigation-mob
   .navigation-ul-mob
@@ -131,11 +133,11 @@
   width: 70px;
   height: 70px;
   background-color: #023610;
-  top: 69px;
-  right: -49px;
+  top: 68px;
+  right: -48px;
 
   border-radius: 50%;
-  border: 4px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
   /* outline: 1px solid black; */
   transition: 0.5s;
 }

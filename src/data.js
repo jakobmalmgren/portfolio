@@ -5,6 +5,7 @@ const data = [
     It also includes a Javascript library called AOS that creates nice and smooth 
     animations. It is all responsive. `,
     image: "../images/bootcamp.avif",
+    url: "https://github.com/jakobmalmgren/bootstrap-css-html-js",
   },
   {
     title: "Chatservice",
@@ -14,6 +15,7 @@ const data = [
     styled components. I also used React hooks such as usestate, usecontext and useffect.
     It is all responsive.`,
     image: "/chat.avif",
+    url: "https://github.com/jakobmalmgren/chatproject",
   },
 
   {
@@ -22,6 +24,7 @@ const data = [
     The FlexBox Layout Module and the preprocessor language SASS. 
     It also includes some Javascript. It is all responsive.`,
     image: "/camera.avif",
+    url: "https://github.com/jakobmalmgren/grid-sass-flexbox-js",
   },
   {
     title: "Videoplayer",
@@ -29,6 +32,7 @@ const data = [
     the state management tool Redux, Typescript and Tailwind.
     It is all responsive.`,
     image: "/video.avif",
+    url: "https://github.com/jakobmalmgren/videoplayer",
   },
 
   {
@@ -40,6 +44,7 @@ const data = [
     A variaty of methods such as map, filter, find, reduce. I also use some hooks such as
     usestate, and useeffect. Mobile approach first and it is all responsive. `,
     image: "/eComerce.avif",
+    url: "https://github.com/jakobmalmgren/react-project",
   },
 ];
 

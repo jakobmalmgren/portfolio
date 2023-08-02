@@ -42,9 +42,11 @@ const ExpandingProjectCard = (props) => {
           >
             <p className="expandingProjectCard-paragraph">{props.info}</p>
             <div className="expandingProjectCard-iconWrapper">
-              <div className="expandingProjectCard-icon">
-                <VscGithubAlt></VscGithubAlt>
-              </div>
+              <a href={props.url}>
+                <div className="expandingProjectCard-icon">
+                  <VscGithubAlt></VscGithubAlt>
+                </div>
+              </a>
             </div>
           </motion.div>
         ) : (

@@ -1,5 +1,6 @@
 import "./About.css";
 import { FaQuoteLeft } from "react-icons/fa";
+import { TfiHandPointDown } from "react-icons/tfi";
 import { FaQuoteRight } from "react-icons/fa";
 
 const About = () => {
@@ -159,23 +160,28 @@ const About = () => {
               <p>Certificates:</p>
               <br />
               <ul className="cert-content">
-                <li>
-                  <a href="/images/frontenddeveloper.pdf" target="blank">
-                    The Front End Developer Career Path, Scrimba
-                  </a>
-                </li>
+                <p className="cert-content-p">(PUSH ME)</p>
                 <br />
-                <li>
-                  <a href="/images/advancedReact.pdf" target="blank">
-                    Advanced React, Scrimba
-                  </a>
-                </li>
+                <TfiHandPointDown></TfiHandPointDown>
                 <br />
-                <li>
-                  <a href="/images/bootcamp.pdf" target="blank">
-                    The Front End Developer Bootcamp, Sundsgarden
-                  </a>
-                </li>
+
+                <br />
+                <a href="/images/frontenddeveloper.pdf" target="blank">
+                  The Front End Developer Career Path, Scrimba
+                </a>
+                <br />
+
+                <br />
+                <a href="/images/advancedReact.pdf" target="blank">
+                  Advanced React, Scrimba
+                </a>
+
+                <br />
+
+                <br />
+                <a href="/images/bootcamp.pdf" target="blank">
+                  The Front End Developer Bootcamp, Sundsgarden
+                </a>
               </ul>
             </div>
           </li>

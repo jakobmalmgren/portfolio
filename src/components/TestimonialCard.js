@@ -3,17 +3,24 @@ import "./TestimonialCard.css";
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
 
-const TestimonialCard = () => {
+const TestimonialCard = (props) => {
   return (
     <div className="testimonialCard">
-      <h2 className="testimonialCard-header">Jon Doe</h2>
-      <p className="testimonialCard-text">
-        <FaQuoteRight></FaQuoteRight>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus,
-        amet dignissimos est minima et ullam suscipit nostrum cupiditate!
-        Repudiandae!
-        <FaQuoteLeft></FaQuoteLeft>
-      </p>
+      <div className="testimonialCard-wrapper">
+        <p className="testimonialCard-text">
+          <FaQuoteRight></FaQuoteRight>
+          <br />
+          <br />
+          {props.testimonial}
+          <br />
+          <br />
+          <FaQuoteLeft></FaQuoteLeft>
+        </p>
+        <br />
+        <h2 className="testimonialCard-header">
+          ~ {props.testimonialPerson} ~
+        </h2>
+      </div>
     </div>
   );
 };

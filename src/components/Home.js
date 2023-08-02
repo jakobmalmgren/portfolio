@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <div className="section" id="home">
       <div className="home-container">
+        <div className="layover"></div>
         <div className="home-container-icon-wrapper">
           <a href="#home">
             <img

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 .about-section {
   margin-top: 80px;
@@ -54,6 +52,10 @@
   z-index: 11111;
   background-color: rgba(0, 0, 0, 0.626);
 }
+.cert-content-p {
+  font-style: oblique;
+}
+
 .honeycomb-cell_img {
   object-fit: cover;
   object-position: center;
@@ -72,7 +74,8 @@
 
 .honeycomb-cell_title {
   font-size: 20px;
-  font-family: "Abril Fatface", cursive;
+  /* font-family: "Abril Fatface", cursive; */
+  font-family: "Advent Pro", sans-serif;
   height: 100%;
   display: -webkit-box;
   display: flex;
@@ -90,8 +93,9 @@
   transition: opacity 350ms;
 }
 .honeycomb-cell_quote {
+  font-family: "Advent Pro", sans-serif;
   font-size: 13px;
-  font-family: "Zeyada", cursive;
+  /* font-family: "Zeyada", cursive; */
   height: 100%;
   display: -webkit-box;
   display: flex;
@@ -161,19 +165,25 @@
   position: absolute;
 }
 .honeycomb-cell-content p {
+  font-size: 13px;
   font-family: "Advent Pro", sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
 }
 .honeycomb-cell-content span {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
+
+  font-style: oblique;
+  /* font-family: "Abril Fatface", cursive; */
 }
 .honeycomb-cell-content a {
   color: white;
   text-decoration: none;
 }
 .cert-content a {
-  font-weight: bolder;
   font-family: "Advent Pro", sans-serif;
+  font-weight: bold;
+  /* font-family: "Advent Pro", sans-serif; */
 }
 
 .honeycomb-cell:hover .honeycomb-cell-content {
