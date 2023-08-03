@@ -139,7 +139,12 @@ input::placeholder {
 .form-btn:hover {
   transition: 0.5s;
   color: white;
-  background-color: #023610;
+  background: rgb(2, 54, 16);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 54, 16, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .contact-modal {

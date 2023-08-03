@@ -132,13 +132,17 @@
   position: absolute;
   width: 70px;
   height: 70px;
-  background-color: #023610;
   top: 68px;
   right: -48px;
+  background: rgb(2, 54, 16);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 54, 16, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 
   border-radius: 50%;
   border: 2px solid rgb(255, 255, 255);
-  /* outline: 1px solid black; */
   transition: 0.5s;
 }
 
