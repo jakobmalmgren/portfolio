@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
-/* .home-container {
-  height: 100vh;
-  width: 100%;
-  background-image: url(/public/images/green.png);
-  background-image: url(/public/images/jappe.png);
-  background-repeat: no-repeat;
-  background-position: 60% 100%;
-  display: flex;
-  align-items: center;
-  position: relative;
-} */
 
 #home {
   position: relative;
@@ -25,42 +14,21 @@
   filter: grayscale(100%);
   background-image: url(/public/images/coding.avif);
   align-items: center;
-  /* background-color: #023610; */
   position: relative;
 }
-/* .layover {
-  background-color: #023610e1;
 
-  background-color: #0236109e;
-  background: rgba(2, 54, 16, 0);
-  background: linear-gradient(
-    169deg,
-    rgb(2, 54, 16) 0%,
-    rgb(255, 255, 255) 100%
-  );
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  z-index: 10;
-} */
 .home-text {
   position: absolute;
-
   right: 0;
   left: 0;
   top: 0;
   bottom: 0;
   margin: auto;
-
   color: white;
   width: 90%;
   height: 30%;
   letter-spacing: 13px;
   padding: 10px;
-
-  /* margin: 0px 0px 0px 20px; */
 }
 .home-text-wrapper h1 {
   font-size: 50px;
@@ -71,12 +39,6 @@ h1 {
 .home-text-wrapper h2 {
   color: #023610;
   font-size: 14px;
-  /* background: #023610;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 0.9388810700061274) 0%,
-    rgba(255, 255, 255, 1) 100%
-  ); */
   background: rgb(2, 54, 16);
   background: linear-gradient(
     270deg,
@@ -109,7 +71,6 @@ h1 {
 }
 .home-container-icon {
   border: 2px solid #023610;
-  /* outline: 1px solid white; */
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -130,8 +91,6 @@ h1 {
     height: 30%;
     letter-spacing: 13px;
     padding: 10px;
-
-    /* margin: 0px 0px 0px 20px; */
   }
   .home-text-wrapper h1 {
     font-size: 60px;
@@ -158,8 +117,6 @@ h1 {
     height: 30%;
     letter-spacing: 13px;
     padding: 10px;
-
-    /* margin: 0px 0px 0px 20px; */
   }
   .home-text-wrapper h1 {
     font-size: 60px;
