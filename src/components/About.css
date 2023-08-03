@@ -74,7 +74,6 @@
 
 .honeycomb-cell_title {
   font-size: 20px;
-  /* font-family: "Abril Fatface", cursive; */
   font-family: "Advent Pro", sans-serif;
   height: 100%;
   display: -webkit-box;
@@ -95,7 +94,6 @@
 .honeycomb-cell_quote {
   font-family: "Advent Pro", sans-serif;
   font-size: 13px;
-  /* font-family: "Zeyada", cursive; */
   height: 100%;
   display: -webkit-box;
   display: flex;
@@ -172,9 +170,7 @@
 .honeycomb-cell-content span {
   font-family: "Advent Pro", sans-serif;
   font-weight: bold;
-
   font-style: oblique;
-  /* font-family: "Abril Fatface", cursive; */
 }
 .honeycomb-cell-content a {
   color: white;
@@ -183,7 +179,6 @@
 .cert-content a {
   font-family: "Advent Pro", sans-serif;
   font-weight: bold;
-  /* font-family: "Advent Pro", sans-serif; */
 }
 
 .honeycomb-cell:hover .honeycomb-cell-content {

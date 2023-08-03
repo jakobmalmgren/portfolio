@@ -55,15 +55,7 @@ const Carousel = () => {
           <h1>TESTIMONIALS</h1>
         </div>
         <div className="slider-wrapper">
-          <Slider {...settings}>
-            {testCard}
-            {/* <TestimonialCard></TestimonialCard>
-            <TestimonialCard></TestimonialCard>
-            <TestimonialCard></TestimonialCard>
-            <TestimonialCard></TestimonialCard>
-            <TestimonialCard></TestimonialCard>
-            <TestimonialCard></TestimonialCard>  */}
-          </Slider>
+          <Slider {...settings}>{testCard}</Slider>
         </div>
       </div>
     </div>

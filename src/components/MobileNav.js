@@ -7,16 +7,9 @@ import { BsBrush } from "react-icons/bs";
 import { RxPerson } from "react-icons/rx";
 import { RxHome } from "react-icons/rx";
 import { BsChatLeftText } from "react-icons/bs";
-import { useEffect, useState } from "react";
-import { useRef } from "react";
+import { useState } from "react";
 
 const MobileNav = () => {
-  // const myRef = useRef();
-
-  // useEffect(() => {
-  //   console.log(myRef.current);
-  // });
-
   const linkItemsMob = [
     <a href="#home" className="navigation-link-mob">
       <span className="navigation-text-mob">HOME</span>
