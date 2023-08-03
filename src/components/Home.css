@@ -10,6 +10,10 @@
   align-items: center;
   position: relative;
 } */
+
+#home {
+  position: relative;
+}
 .home-container {
   height: 100vh;
   width: 100%;
@@ -18,33 +22,44 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  filter: grayscale(100%);
   background-image: url(/public/images/coding.avif);
   align-items: center;
   /* background-color: #023610; */
   position: relative;
 }
-.layover {
+/* .layover {
   background-color: #023610e1;
-  /* background-color: #0236109e; */
-  /* background: rgba(2, 54, 16, 0);
+
+  background-color: #0236109e;
+  background: rgba(2, 54, 16, 0);
   background: linear-gradient(
     169deg,
     rgb(2, 54, 16) 0%,
     rgb(255, 255, 255) 100%
-  ); */
+  );
   position: absolute;
   top: 0px;
   left: 0px;
   bottom: 0px;
   width: 100%;
   z-index: 10;
-}
+} */
 .home-text {
-  z-index: 11;
+  position: absolute;
+
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
   color: white;
+  width: 90%;
+  height: 30%;
   letter-spacing: 13px;
   padding: 10px;
-  margin: 0 auto;
+
   /* margin: 0px 0px 0px 20px; */
 }
 .home-text-wrapper h1 {
@@ -73,6 +88,13 @@ h1 {
 }
 .home-text-wrapper p {
   font-size: 9px;
+  color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    253deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(2, 54, 16, 1) 100%
+  );
 }
 .home-text p,
 .home-text h1,
@@ -94,6 +116,23 @@ h1 {
   background-color: white;
 }
 @media screen and (min-width: 600px) {
+  .home-text {
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    color: white;
+    width: 60%;
+    height: 30%;
+    letter-spacing: 13px;
+    padding: 10px;
+
+    /* margin: 0px 0px 0px 20px; */
+  }
   .home-text-wrapper h1 {
     font-size: 60px;
   }
@@ -105,6 +144,23 @@ h1 {
   }
 }
 @media screen and (min-width: 900px) {
+  .home-text {
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    color: white;
+    width: 50%;
+    height: 30%;
+    letter-spacing: 13px;
+    padding: 10px;
+
+    /* margin: 0px 0px 0px 20px; */
+  }
   .home-text-wrapper h1 {
     font-size: 60px;
   }
