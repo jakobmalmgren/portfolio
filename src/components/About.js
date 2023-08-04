@@ -85,7 +85,7 @@ const About = () => {
           <li class="honeycomb-cell">
             <img
               className="honeycomb-cell_img"
-              src="/images/skills.avif"
+              src="/images/skills.jpg"
               alt=""
             />
             <div className="honeycomb-cell_title">SKILLS</div>
@@ -99,7 +99,7 @@ const About = () => {
           <li className="honeycomb-cell">
             <img
               className="honeycomb-cell_img"
-              src="/images/interests.avif"
+              src="/images/interests.jpg"
               alt=""
             />
             <div className="honeycomb-cell_title">INTERESTS</div>
@@ -152,7 +152,7 @@ const About = () => {
           <li className="honeycomb-cell">
             <img
               className="honeycomb-cell_img"
-              src="/images/education.avif"
+              src="/images/education.jpg"
               alt=""
             />
             <div className="honeycomb-cell_title">EDUCATION</div>
@@ -187,11 +187,7 @@ const About = () => {
           </li>
 
           <li class="honeycomb-cell">
-            <img
-              className="honeycomb-cell_img"
-              src="/images/tool.avif"
-              alt=""
-            />
+            <img className="honeycomb-cell_img" src="/images/tool.jpg" alt="" />
             <div className="honeycomb-cell-content">
               {tools.map((tool) => {
                 return <div className="about-wrapper">{tool}</div>;

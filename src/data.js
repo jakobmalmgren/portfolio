@@ -4,7 +4,7 @@ const data = [
     info: `This is a webpage I only focused in Bootstrap, CSS and HMTL.
     It also includes a Javascript library called AOS that creates nice and smooth 
     animations. It is all responsive. `,
-    image: "../images/bootcamp.avif",
+    image: "../images/bootcamp.jpg",
     url: "https://github.com/jakobmalmgren/bootstrap-css-html-js",
   },
   {
@@ -14,7 +14,7 @@ const data = [
     an authentification through Google and Facebook, and the concept of
     styled components. I also used React hooks such as usestate, usecontext and useffect.
     It is all responsive.`,
-    image: "/chat.avif",
+    image: "/chat.jpg",
     url: "https://github.com/jakobmalmgren/chatproject",
   },
 
@@ -23,7 +23,7 @@ const data = [
     info: `This is a webpage I only focused on the Grid Layout System, 
     The FlexBox Layout Module and the preprocessor language SASS. 
     It also includes some Javascript. It is all responsive.`,
-    image: "/camera.avif",
+    image: "/camera.jpg",
     url: "https://github.com/jakobmalmgren/grid-sass-flexbox-js",
   },
   {
@@ -31,7 +31,7 @@ const data = [
     info: `This is a webpage I only focused on fetching data from an API,
     the state management tool Redux, Typescript and Tailwind.
     It is all responsive.`,
-    image: "/video.avif",
+    image: "/video.jpg",
     url: "https://github.com/jakobmalmgren/videoplayer",
   },
 
@@ -43,7 +43,7 @@ const data = [
     function components, localStorage, react-router-dom, dealing with props, destructuring props, folderstructure.
     A variaty of methods such as map, filter, find, reduce. I also use some hooks such as
     usestate, and useeffect. Mobile approach first and it is all responsive. `,
-    image: "/eComerce.avif",
+    image: "/eComerce.jpg",
     url: "https://github.com/jakobmalmgren/react-project",
   },
 ];
