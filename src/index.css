@@ -4,3 +4,18 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(2, 54, 16, 1) 85%,
+    rgba(2, 54, 16, 1) 91%
+  );
+  border-radius: 5px;
+}
