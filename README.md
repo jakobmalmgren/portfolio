@@ -46,6 +46,8 @@ What was the inspiration behind creating the project?
 
 -React-icons
 
+-EmailJS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

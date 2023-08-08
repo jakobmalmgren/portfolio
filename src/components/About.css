@@ -54,13 +54,13 @@
 }
 .cert-content-p {
   font-style: oblique;
+  letter-spacing: 1px;
 }
 
 .honeycomb-cell_img {
   object-fit: cover;
   object-position: center;
   filter: grayscale(100%);
-  background-color: green;
 }
 .skill-icon {
   height: 20px;

@@ -143,9 +143,9 @@ const About = () => {
                 I was born the year 1987 in Sweden, in a small city called
                 Kristianstad. I Recently moved to Barcelona and I have been
                 living there for about 2 years. Originally I am a teacher, but
-                my interest in developing made me think and therefore I am now
-                changing path of career. I am very flexible and if the right
-                opportunity comes I am ready to move anywhere.
+                my interest in IT made me think and therefore I am now changing
+                path of career. I am very flexible and if the right opportunity
+                comes I am ready to move anywhere.
               </p>
             </div>
           </li>
@@ -160,7 +160,7 @@ const About = () => {
               <p>Certificates:</p>
               <br />
               <ul className="cert-content">
-                <p className="cert-content-p">(PUSH ME)</p>
+                <p className="cert-content-p">(Visit me)</p>
                 <br />
                 <TfiHandPointDown></TfiHandPointDown>
                 <br />

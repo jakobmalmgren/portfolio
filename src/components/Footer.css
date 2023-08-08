@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap");
 .footer-section {
-  color: #023610;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,10 +27,10 @@
 
 .footer-section-icon-wrapper a {
   cursor: pointer;
-  color: #023610;
+  color: black;
   height: 40px;
   width: 40px;
-  border: 1px solid#023610;
+  border: 1px solid black;
   background-color: white;
   border-radius: 50%;
   display: flex;
