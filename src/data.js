@@ -1,7 +1,7 @@
 const data = [
   {
     title: "Bootcamp Webpage",
-    info: `This is a webpage I only focused in Bootstrap, CSS and HMTL.
+    info: `This is a webpage I only focused on Bootstrap, CSS and HMTL.
     It also includes a Javascript library called AOS that creates nice and smooth 
     animations. It is all responsive. `,
     image: "../images/bootcamp.jpg",
@@ -37,10 +37,10 @@ const data = [
 
   {
     title: "E-Comerce",
-    info: `This is a webpage I only focused in React and some concepts
+    info: `This is a webpage I only focused on React and many concepts
     in it. I get my data through an own customized mock data. For the styling I
     use CSS - modules. In this project I use various techniques as 
-    function components, localStorage, react-router-dom, dealing with props, destructuring props, folderstructure.
+    function components, localStorage, react-router-dom, dealing with props, destructuring props, folderstructure etc.
     A variaty of methods such as map, filter, find, reduce. I also use some hooks such as
     usestate, and useeffect. Mobile approach first and it is all responsive. `,
     image: "/eComerce.jpg",
