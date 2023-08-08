@@ -82,6 +82,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
 }
+
 .input-wrapper {
   position: relative;
   width: 100%;
@@ -106,6 +107,10 @@ input::placeholder {
   width: 100%;
   border-radius: 30px;
   border: 1px solid black;
+  font-family: "Advent Pro", sans-serif;
+  color: black;
+  font-weight: bolder;
+  letter-spacing: 1px;
 }
 
 .location-wrapper {
