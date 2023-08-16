@@ -20,13 +20,13 @@
 }
 .slick-next:before,
 .slick-prev:before {
-  color: #023610;
+  color: #023610bc;
   opacity: 1;
 }
 
 .slick-dots li button:before,
 .slick-dots li.slick-active button:before {
-  color: #023610;
+  color: #023610bc;
 }
 
 @media screen and (min-width: 600px) {

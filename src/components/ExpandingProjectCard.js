@@ -5,6 +5,7 @@ import "./ExpandingProjectCard.css";
 import { CiMedicalCross } from "react-icons/ci";
 import { TiMinusOutline } from "react-icons/ti";
 import { VscGithubAlt } from "react-icons/vsc";
+import { PiPlayThin } from "react-icons/pi";
 
 const ExpandingProjectCard = (props) => {
   const [selected, setSelected] = useState(false);
@@ -42,9 +43,14 @@ const ExpandingProjectCard = (props) => {
           >
             <p className="expandingProjectCard-paragraph">{props.info}</p>
             <div className="expandingProjectCard-iconWrapper">
-              <a href={props.url}>
+              <a href={props.url} target="blank">
                 <div className="expandingProjectCard-icon">
                   <VscGithubAlt></VscGithubAlt>
+                </div>
+              </a>
+              <a href={props.live} target="blank">
+                <div className="expandingProjectCard-icon">
+                  <PiPlayThin></PiPlayThin>
                 </div>
               </a>
             </div>
