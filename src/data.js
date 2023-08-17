@@ -3,7 +3,7 @@ const data = [
     title: "Bootcamp Webpage",
     info: `This is a webpage I only focused on Bootstrap, CSS and HMTL.
     It also includes a Javascript library called AOS that creates nice and smooth 
-    animations. It is all responsive. If you are interested viewing the code or
+    animations. It is all responsive. If you are interested in viewing the code or want to
     view the website live, the links are down below.
      `,
     image: "../images/bootcamp.jpg",
@@ -16,7 +16,7 @@ const data = [
     dealing with Axios, the state management tool Context API, Firebase to create
     an authentification through Google and Facebook, and the concept of
     styled components. I also used React hooks such as usestate, usecontext and useffect.
-    It is all responsive. If you are interested viewing the code or
+    It is all responsive. If you are interested in viewing the code or want to
     view the website live, the links are down below.`,
     image: "/chat.jpg",
     url: "https://github.com/jakobmalmgren/chatproject",
@@ -27,7 +27,7 @@ const data = [
     title: "Photography Webpage",
     info: `This is a webpage I only focused on the Grid Layout System, 
     The FlexBox Layout Module and the preprocessor language SASS. 
-    It also includes some Javascript. It is all responsive. If you are interested viewing the code or
+    It also includes some Javascript. It is all responsive. If you are interested in viewing the code or want to
     view the website live, the links are down below.`,
     image: "/camera.jpg",
     url: "https://github.com/jakobmalmgren/sass-flex-grid-js",
@@ -37,7 +37,7 @@ const data = [
     title: "Videoplayer",
     info: `This is a webpage I only focused on fetching data from an API,
     the state management tool Redux, Typescript and Tailwind.
-    It is all responsive. If you are interested viewing the code or
+    It is all responsive. If you are interested in viewing the code or want to
     view the website live, the links are down below.`,
     image: "/video.jpg",
     url: "https://github.com/jakobmalmgren/videoplayer",
@@ -51,7 +51,7 @@ const data = [
     use CSS - modules. I use various techniques as 
     function components, react-router-dom, dealing with props, destructuring props, folderstructure etc.
     A variaty of methods such as map, filter, find, reduce. I use hooks such as
-    usestate, and useeffect. Mobile approach first and it is all responsive. If you are interested viewing the code or
+    usestate, and useeffect. Mobile approach first and it is all responsive. If you are interested in viewing the code or want to
     view the website live, the links are down below.`,
     image: "/eComerce.jpg",
     url: "https://github.com/jakobmalmgren/react-project",
