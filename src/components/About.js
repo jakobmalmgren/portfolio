@@ -60,6 +60,8 @@ const About = () => {
     "Creative",
     "BEM",
     "HOC:s",
+    "Render Props",
+    "Async code",
   ];
   return (
     <div className="section" id="about">
