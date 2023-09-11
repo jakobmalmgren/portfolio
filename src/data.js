@@ -12,7 +12,7 @@ const data = [
   },
   {
     title: "Chatservice",
-    info: `This is a webpage I only focused on fetching data from an API with async/await,
+    info: `This is a webpage I only focused on React, fetching data from an API with async/await,
     dealing with Axios, the state management tool Context API, Firebase to create
     an authentification through Google and Facebook, and the concept of
     styled components. I also used React hooks such as usestate, usecontext and useffect.
@@ -25,7 +25,7 @@ const data = [
 
   {
     title: "Photography Webpage",
-    info: `This is a webpage I only focused on the Grid Layout System, 
+    info: `This is a webpage I only focused CSS, HTML, The Grid Layout System, 
     The FlexBox Layout Module and the preprocessor language SASS. 
     It also includes some Javascript. It is all responsive. If you are interested in viewing the code or want to
     view the website live, the links are down below.`,
@@ -35,7 +35,7 @@ const data = [
   },
   {
     title: "Videoplayer",
-    info: `This is a webpage I only focused on fetching data from an API,
+    info: `This is a webpage I only focused on React, fetching data from an API,
     the state management tool Redux, Typescript and Tailwind.
     It is all responsive. If you are interested in viewing the code or want to
     view the website live, the links are down below.`,
